@@ -1,0 +1,131 @@
+* {
+  font-size: 62.5%;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(230, 150, 44),
+    rgb(192, 230, 22)
+  );
+}
+.header {
+  font-size: 3.2rem;
+  display: inline;
+}
+.text {
+  font-size: 1.6rem;
+  margin: 1.6rem auto;
+  padding: 8px auto;
+}
+.para {
+  width: 70%;
+  display: flex;
+  margin: 0rem auto;
+  flex-direction: column;
+  min-height: 94vh;
+  border-radius: 12px;
+  background-color: aliceblue;
+  height: auto;
+  padding: 2rem;
+  background-blend-mode: color-burn;
+}
+.box {
+  width: 25rem;
+  height: 1.5rem;
+  font-size: 150%;
+}
+.animeBox {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto auto;
+  gap: 1.2rem;
+}
+.mainImg {
+  /* visibility: hidden; */
+}
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2.4rem;
+  font-size: 2.4rem;
+}
+.item:nth-child(2) {
+  width: max-content;
+}
+.item:nth-child(1) {
+  width: max-content;
+}
+.item:nth-child(0) {
+  width: max-content;
+}
+.item:nth-child(3) {
+  width: max-content;
+}
+.item:nth-child(4) {
+  width: max-content;
+}
+.itemImg {
+  height: 12rem;
+  width: 10rem;
+  align-self: flex-start;
+}
+.itemName {
+  font-size: 2.4rem;
+  width: 12rem;
+}
+.itemScore {
+  font-size: 2.4rem;
+  width: 8rem;
+}
+.ranking {
+  font-size: 2.4rem;
+}
+.episodeCount {
+  font-size: 2.4rem;
+}
+.startDate {
+  font-size: 2.4rem;
+  width: 12rem;
+}
+.endDate {
+  font-size: 2.4rem;
+}
+.episodes {
+  font-size: 2.4rem;
+}
+.button {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  border-width: 0rem;
+  border-radius: 1.2rem;
+  width: 14rem;
+  align-self: center;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.button:hover {
+  background-color: rgb(70, 233, 179);
+  border-radius: 1.8rem;
+  transform: scale(110%);
+  box-shadow: black 8px;
+}
+.button:active {
+  background-color: rgb(45, 191, 143);
+  border-radius: 1.4rem;
+  transform: scale(105%);
+  box-shadow: black 4px;
+}
+
+._l8uio {
+  display: flex;
+  gap: 50%;
+}
+.logIn {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.4rem;
+}
